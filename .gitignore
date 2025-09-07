@@ -3,6 +3,3 @@ node_modules/
 newrelic_agent.log
 package.json
 package-lock.json
-service-map.png
-summary.png
-docker.png
