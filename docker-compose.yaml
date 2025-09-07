@@ -1,0 +1,10 @@
+services:
+  app:
+    build:
+      context: .   # yaha Dockerfile rakha hai
+      dockerfile: Dockerfile
+    container_name: devops-node-monitor
+    environment:
+      - NEW_RELIC_LICENSE_KEY=${NEW_RELIC_LICENSE_KEY}
+    ports:
+      - "3000:3000"
