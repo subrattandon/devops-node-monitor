@@ -1,0 +1,33 @@
+# Node modules
+node_modules/
+
+# Logs
+*.log
+newrelic_agent.log
+
+# OS / IDE files
+.DS_Store
+.vscode/
+.idea/
+
+# Kombai or other hidden folders
+.kombai/
+
+# Docker
+docker-compose.override.yml
+*.env
+
+# Package files (optional if you don’t want to push package-lock.json)
+package-lock.json
+package.json
+
+# Images / output files
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.gif
+
+# Summary / reports
+summary.png
+service-map.png
